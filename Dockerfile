@@ -1,5 +1,5 @@
 FROM centos:7
-MAINTAINER younghwan.kim@romaxtech.com
+MAINTAINER sohrkim@gmail.com
 
 RUN  yum localinstall -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm \
   && yum localinstall -y https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm \
